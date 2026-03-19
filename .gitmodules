@@ -1,0 +1,3 @@
+[submodule "LogParser/Tisdale"]
+	path = LogParser/Tisdale
+	url = git@github.com:USSTRocketry/Tisdale.git

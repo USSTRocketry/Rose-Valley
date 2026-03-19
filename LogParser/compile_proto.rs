@@ -2,7 +2,7 @@ use glob::glob;
 use std::io::Result;
 
 fn main() -> Result<()> {
-    const PROTO_FOLDER: &str = "Tisdale-proto-files";
+    const PROTO_FOLDER: &str = "Tisdale";
 
     // Tell Cargo that if the given file changes, to rerun this build script.
     println!("cargo:rerun-if-changed={}", PROTO_FOLDER);
